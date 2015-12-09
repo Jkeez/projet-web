@@ -4,6 +4,7 @@
 
 	<title>Titre magasin</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 
 </head>
 <body>
@@ -17,123 +18,122 @@
    <!-- Faire design barre de recherche avec classes -->
 							
 			
-		<div class="menu">
+	<div class="menu">
+		<div class="navi-menu">
 			<ul>
-				<li class="accueuil"><a href="accueil.html">Acceuil [front page]</a></li>
+				<li class="accueil"><a href="accueil.html">Acceuil [front page]</a></li>
 				<li><a href="apropos.html">à propos [Info sur l'ent]</a></li>
 				<li><a href="modeles.html">Modèles [Liste complete des modèles]</a></li>
 				<li><a href="contact.html">Contactez nous [Faire formulaire pour envoie requete]</a></li>
 				<li><a href="inscription.html">S'inscrire </a></li>
-			</ul>
-					
-		</div>
+		    </ul>
+		
+		</div>			
+	</div>
 		
 		<!-- Faire design menu + liens + pages -->
 									
-				<a href=""><img src="images/img111.jpg" alt=""></a> <!-- Faire lien vers details -->
-						<div>
-							<p>Descriptif</p>
-							<p>Descriptif</p>
-						 <div>
+		<a href=""><img src="images/img111.jpg" alt=""></a> <!-- Faire lien vers details -->
+		<div>
+			<p>Descriptif</p>
+			<p>Descriptif</p>
+		 <div>
 						 
-					 	 <span>66000.00 €</span>
-				    	<span>12000.00 €</span> 
+ 	 <span>66000.00 €</span>
+	<span>12000.00 €</span> 
 						
-						<!-- Faire reduc -->
+	<!-- Faire reduc -->
 						
-						</div>
+	</div>
 						
-							<div>
-									<button><span>Détails</span></button> <!-- Faire lien -->
+	<div>
+	<button><span>Détails</span></button> <!-- Faire lien -->
 													
-							</div>
+		</div>
 							
-						</div>
+		</div>
 							
 									
-					<div>
-						 <div>
-							<a href="modeles.html"><img src="images/img222.jpg" alt=""></a>
-							<div>
-								<p>Descriptif</p>
-								<p>Descriptif</p>
-								 <div>
-								 <span>66000.00 €</span>
-								<span>12000.00 €</span>
-									</div>
-											<div>
-											<div>
-											<a href=""><img src="images/panier.png" alt=""/></a>
-											</div>
-											<button><span>Détails</span></button>
+		<div>
+		 <div>
+		<a href="modeles.html"><img src="images/img222.jpg" alt=""></a>
+		<div>
+			<p>Descriptif</p>
+			<p>Descriptif</p>
+		 <div>
+		 <span>66000.00 €</span>
+		<span>12000.00 €</span>
+			</div>
+			<div>
+			<div>
+			<a href=""><img src="images/panier.png" alt=""/></a>
+			</div>
+		<button><span>Détails</span></button>
 										
-										</div>
-											</div>
-								</div>
-									</div>
-								
-				
+		</div>
+		</div>
+		</div>
+		</div>		
 								
 									
-										<a href=""><img src="images/img333.jpg"  alt=""></a>
-											<div>
-												<p>Descriptif</p>
-												<p>Descriptif</p>
-													 <div>
-													 	 <span>66000.00 €</span>
-								        				<span>12000.00 €</span>
-													</div>
-													<div>
-														<div>
-															<a href=""><img src="images/panier.png" alt=""/></a>
-														</div>
-														<button><span>Détails</span></button>
+		<a href=""><img src="images/img333.jpg"  alt=""></a>
+		<div>
+		<p>Descriptif</p>
+		<p>Descriptif</p>
+		 <div>
+		<span>66000.00 €</span>
+		<span>12000.00 €</span>
+		</div>
+		<div>
+	<div>
+	<a href=""><img src="images/panier.png" alt=""/></a>
+	</div>
+	<button><span>Détails</span></button>
 													
-												</div>
-											</div>
-								
+		</div>
+		</div>					
 							
-									<div>
-										  <div>
-										<a href=""><img src="images/img444.jpg"  alt=""></a>
-											<div>
-												<p>Descriptif</p>
-												<p>Descriptif</p>
-													 <div>
-													 	 <span>66000.00 €</span>
-								        				<span>12000.00 €</span>
-													</div>
-													<div>
-														<div>
-															<a href=""><img src="images/panier.png" alt=""/></a>
-														</div>
-														<button><span>Détails</span></button>
-												
-												</div>
-											</div>
-								</div>
-									</div>
-									<div>
-										  <div>
-										<a href="modeles.html"><img src="images/img555.jpg" alt=""></a>
-											<div>
-												<p>Descriptif </p>
-												<p>Descriptif</p>
-													 <div>
-													 	 <span>66000.00 €</span>
-								        				<span>120000.00 €</span>
-													</div>
-													<div>
-														<div>
-															<a href=""><img src="images/panier.png" alt=""/></a>
-														</div>
-														<button><span>Détails</span></button>
+		<div>
+	  <div>
+	<a href=""><img src="images/img444.jpg"  alt=""></a>
+		<div>
+		<p>Descriptif</p>
+		<p>Descriptif</p>
+	 <div>
+	 <span>66000.00 €</span>
+	<span>12000.00 €</span>
+	</div>
+		<div>
+		<div>
+	<a href=""><img src="images/panier.png" alt=""/></a>
+	</div>
+	<button><span>Détails</span></button>
+											
+	</div>
+	</div>
+	</div>
+	</div>
+	<div>
+	 <div>
+		<a href="modeles.html"><img src="images/img555.jpg" alt=""></a>
+	<div>
+		<p>Descriptif </p>
+		<p>Descriptif</p>
+	 <div>
+	<span>66000.00 €</span>
+	<span>120000.00 €</span>
+	</div>
+	<div>
+	<div>
+<a href=""><img src="images/panier.png" alt=""/></a>
+</div>
+<button><span>Détails</span></button>
 													
-													</div>
-											</div>
-						
-								</div>
-						</div>
+</div>
+</div>
+					
+</div>
+</div>
 				
 
 </body>
