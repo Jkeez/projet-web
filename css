@@ -1,3 +1,61 @@
-ratieof
+.search {
+	float: right;
+	margin-top: 1%;
+}
 
-zxnf
+.gray-button {
+	padding: 2px 10px 2px;
+	height:35px;
+	color:#D54F30;
+	font-size: 12px;
+	cursor: pointer;
+	border: 1px solid #D9D9D9;
+	border-bottom: 1px solid #D9D9D9;
+	background: #FFF;
+	-webkit-box-shadow: inset 1px 4px 4px rgba(227, 227, 227, 0.5);
+	box-shadow: inset 1px 4px 4px rgba(227, 227, 227, 0.5);
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.gray-button:hover {
+	color:#000;
+}
+
+
+.menu{
+	background:#D54F30;
+}
+
+
+.navi-menu{
+	margin: 0 20px 0 20px;
+}
+
+.navi-menu li.accueil a, .navi-menu li a:hover {
+	background: #f0f0f0;
+	color:#222;
+}
+
+.navi-menu li {
+	color: #FBFAFA;
+	border: none;
+	float: left;
+	border-right: 2px ridge #F75633;
+}
+
+.navi-menu li:first-child{
+	border-left: 2px ridge #F75633;
+}
+
+.navi-menu li a {
+	display: block;
+	color:#fff;
+	padding:20px 0 16px;
+	min-height: 23px;
+	width:217px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
