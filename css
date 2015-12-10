@@ -59,3 +59,99 @@
 	font-weight: bold;
 }
 
+p.nomproduit {
+	font-size: 13px;
+	color:#D54F30;
+	line-height: 1.6em;
+	margin-top: 9%;
+}
+
+p.description {
+	font-size: 13px;
+	color:#333;
+	line-height: 1.8em;
+}
+
+
+.espace{clear:both;}
+
+span.prixactuel {
+	margin-right: 8%;
+	color: #000;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+span.prixavant {
+	text-decoration: line-through;
+	margin-right: 8%;
+	color: #555;
+	font-size: 1.2em;
+}
+
+.prix {
+	padding: 5% 0;
+	font-size: 15px;
+	height: 19px;
+}
+
+
+
+.panier{
+	float:left;
+}
+.panier a img:hover{
+	background: #C74426;
+}
+.panier img{
+	background: #D54F30;
+}
+
+.button{
+	border: 1px solid #D9D9D9;
+	border-bottom: 1px solid #B9B9B9;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #F5F5F5;
+	float:right;
+	padding: 7px 20px;
+	color:#D54F30;
+	font-size: 1em;
+	font-weight: bold;
+	cursor:pointer;
+}
+
+.button:hover{
+	background: #D54F30;
+	color:#fff;
+}
+
+.case{
+	padding: 1% 7% 7% 7%;
+	border-top: 1px solid #D9D9D9;
+}
+
+.case1{
+	border: 1px solid #D9D9D9;
+}
+.case1 img{
+	display:block;
+}
+
+.case1b{
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.case1b:first-child { 
+	margin-left: 0; 
+}
+
+.imgb {
+	width: 32.2%;
+}
+.imgb img {
+	max-width:100%;
+	display:block;
+}
+
