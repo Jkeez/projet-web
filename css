@@ -177,6 +177,12 @@ span.prixavant {
 .contenu-cadre{
 	padding: 5% 6%;
 	color: #FFF;
+	background: #FFF
+}
+.cadre .contenu-cadre{
+	padding: 5% 6%;
+	color: #FFF;
+	background: #AFAFAF
 }
 
 .cadre {
@@ -328,11 +334,184 @@ html,body,div,span,h1,p,a,img,strong,section{margin:0;padding:0;border:0;font-si
 }
 
 
+.colonne{
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.colonne:first-child{
+	margin-left:0;
+}	
+.spanform {
+	width:100%;
+}
 
-@media only screen and (max-width: 1024px) {
-	.wrap{
-		width:90%;
-	}	
+.spanform h2 {
+	font-size: 1.8em;
+	color: #D54F30;
+	padding: 2% 0;
+}
+
+.contact-form{
+	position:relative;
+	padding-bottom:30px;
+}
+
+.contact-form div{
+	padding:5px 0;
+}
+
+.contact-form span{
+	display:block;
+	font-size:0.8125em;
+	color: #333;
+	padding-bottom:5px;
+	font-family :verdana, arial, helvetica, helve, sans-serif;
+}
+
+.contact-form input[type="text"],.contact-form textarea{
+	padding:8px;
+	display:block;
+	width:98%;
+	background:#fcfcfc;
+	border: none;
+	outline:none;
+	color:#464646;
+	font-size:0.8125em;
+	font-family:Arial, Helvetica, sans-serif;
+	box-shadow: inset 0px 0px 3px #999;
+	-webkit-box-shadow: inset 0px 0px 3px #999;
+	-moz-box-shadow: inset 0px 0px 3px #999;
+	-o-box-shadow: inset 0px 0px 3px #999;
+	-webkit-appearance:none;
+}
+
+.contact-form textarea{
+	resize:none;
+	height:120px;		
+}
+
+.contact-form input[type="submit"]{
+	padding:7px 20px;
+	color:#FFF;
+	cursor:pointer;
+	background:#D54F30 url(../images/large-button-overlay.png);
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50);
+	-webkit-border-radius: 5px;
+    border-radius:2px;
+    font-family:Arial, Helvetica, sans-serif;
+    position:absolute;
+    right:0;
+}
+
+.contact-form input[type="submit"]:hover{
+	background-color:#000;
+}
+
+.details-top{
+	margin-top:3%;
+}
+.details-bot{
+	margin-bottom: 2%;
+}
+.case-disp {
+	display: block;
+	float:left;
+	margin: 0% 0 0% 1.6%;
+}
+.img-taille {
+	width:30.2%;
+}
+.img-taille img {
+	max-width:100%;
+	display:block;
+}
+.txt-taille{
+	width: 68.1%;
+}
+.txt-taille  h1{
+	color:#D54F30;
+	margin-bottom:0.3em;
+	font-size:1.8em;
+	font-weight : normal;
+	margin-top: 0px;
+	letter-spacing: -1px;
+}
+.txt-taille  p{
+	font-size:1.1em;
+	padding:0.3em 0;
+	color: #333;
+	line-height: 1.6em;
+}
+.zone-com {
+	padding-top:2%;
+}
+.laisser-com{
+	margin: 5% 0 -3%;
+}
+.laisser-com a{
+	color: #333;
+	font-size:1.5em;
+}
+
+
+.commentaire input[type="submit"] {
+	padding: 8px 15px;
+	color: #666;
+	background: #F1F1F1;
+	background: -moz-linear-gradient(top, #F1F1F1 0%, #E0E0E0 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F1F1F1), color-stop(100%,#E0E0E0));
+	background: -webkit-linear-gradient(top, #F1F1F1 0%,#E0E0E0 100%);
+	background: -o-linear-gradient(top, #F1F1F1 0%,#E0E0E0 100%);
+	background: -ms-linear-gradient(top, #F1F1F1 0%,#E0E0E0 100%);
+	background: linear-gradient(to bottom, #F1F1F1 0%,#E0E0E0 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#e0e0e0',GradientType=0 );
+	border: 1px solid #BBB;
+	-webkit-box-shadow: 0 0 6px #999;
+	-moz-box-shadow: 0 0 6px #999;
+	box-shadow: 0 0 6px #999;
+	border: 1px solid #BBB;
+	cursor: pointer;
+}
+.commentaire [type="submit"]:hover {
+	color:#D54F30;
+}
+
+.commentaire {
+	margin-top: 50px;
+	color:#333;
+}
+.commentaire p {
+	position: relative;
+	padding: 8px 0;
+}
+.commentaire label {
+	display: block;
+}
+
+.commentaire input[type="text"] {
+	padding: 7px 15px;
+	width: 47%;
+	color: #222;
+	font-size: 13px;
+	border: none;
+	background: #F0F0F0;
+	outline: none;
+	display: block;
+}
+.commentaire textarea {
+	padding: 7px 15px;
+	width: 70%;
+	color: #222;
+	font-size: 13px;
+	outline: none;
+	height: 100px;
+	display: block;
+	border: none;
+	background: #F0F0F0;
+	font-family: 'Arial', sans-serif;
 }
 
 
