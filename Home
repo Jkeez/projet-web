@@ -19,6 +19,8 @@
 					<div>
 					  	<ul class="menu-utilisateur">
 							 <li class="compte"><a href=""><div class="button"><span>Créer un compte</span></div></a></li>
+							 <li><input type="text" placeholder="Nom d'utilisateur"></li>
+							 <li><input type="password" placeholder="Mot de passe"></li>
 							 <li class=""><a href=""><div class="button"><span>Se connecter</span></div></a></li>
 						
 						</ul>
