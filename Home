@@ -50,11 +50,11 @@
 	<div class="menu">
 		<div class="navi-menu">
 			<ul>
-				<li class="accueil"><a href="accueil.html">Acceuil</a></li>
-				<li><a href="apropos.html">Modeles</a></li>
-				<li><a href="modeles.html">Contactez nous</a></li>
-				<li><a href="contact.html">S'inscrire</a></li>
-				<li><a href="inscription.html">A propos de nous</a></li>
+				<li class="act"><a href="accueil.html">Acceuil</a></li>
+				<li><a href="modeles.html">Modeles</a></li>
+				<li><a href="contact.html">Contactez nous</a></li>
+				<li><a href="inscription.html">S'inscrire</a></li>
+				<li><a href="apropos.html">A propos de nous</a></li>
 		    </ul>
 			<div class="espace"></div>
 		
@@ -69,6 +69,9 @@
 <div class="contenu-droite">		
 		
 		<!-- Faire design menu + liens + pages -->
+		<div class="barre">
+		   <h1>Les promotions actuelles sur Mustang Engine</h1>
+		</div>
 		<div class="text">
 <section>		
 		<div class="case1b imgb">
